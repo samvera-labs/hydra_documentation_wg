@@ -2,6 +2,11 @@
 
 _NOTE: The Call for Participation (CfP) for this working group is open from **Thursday, April 5, 2017** through **Wednesday, April 19, 2017**. After that, any further changes to this charter will be made only by consensus of the working group's active members._
 
+## Definitions
+
+  * **inline documentation:** YARD documentation within code comments.
+  * **instructional documentation:** Any documentation available on the web that is not YARD documentation.
+
 ## Scope & Objectives
 
 This working group has been chartered to implement concrete improvements to developer documentation within the Hydra community. These improvements were identified during LDCX^8 and the Hydra Developer Congress held on March 27-31, 2017 at Stanford.
@@ -10,29 +15,41 @@ Some work has already been completed toward those improvments, and it was conclu
 
 This working group has the following objectives:
 
-  1. Increase YARD documentation coverage and quality for code living under https://github.com/projecthydra.
-  1. Enhance projecthydra.github.io to be the primary home for developer documentation.
-  1. Migrate documentation from various locations into the new home.
-
+  1. Increase YARD documentation coverage and improve quality for repositories in https://github.com/projecthydra.
+  1. Establish http://projecthydra.github.io as the primary home for developer documentation.
+  1. Define community expectations for coverage and quality of documentation, both inline and instructional.
 
 ## Deliverables
 
-1. Inline documentation (YARD)
-  1. Add Inch CI badges to all repositories under https://github.com/projecthydra.
-  1. Establish desired thresholds of Inch CI metrics
-  1. Define community policies for maintaining
-1. Developer documentation (tutorials, and non-inline documentation)
-  1. Revamp projecthydra.github.io to use a theme that can better organize more content
-  1. Reorganize content on projecthydra.github.io
-  1. Consolidate developer docs from Duraspace wiki to project
-1. Define community policies for maintaining documentation
+### Improving inline docs
+  1. Choose one or more tool for measuring coverage and quality of inline docs.
+  1. Use metrics from chosen tools to establish achievable targets.
+  1. Achieve the targets.
 
+### Improving http://projecthydra.github.io
+  1. Implement a theme and layout that provides easier discovery and navigation than current options (e.g. the Duraspace Wiki).
+  1. Reorganize existing content on projecthydra.github.io, preserving any legacy links.
+  1. Identify instructional documentation from other sources that should be migrated http://projecthydra.github.io, archived somewhere, or deleted.
+
+### Defining community expectations for documentation
+  1. Propose a policy for setting, and maintaining, a threshold of inline documentation coverage and quality.
+  1. Propose a policy for where instructional documentation should be created and maintained, and where it should not.
+  1. Propose contributing guidelines for adding and modifying instructional documentation.
+
+### Time frame
 
 _The timeframe for activities and producing deliverables should also be included in this section. Included should be a sunset date for the group._
 
-## Meeting Times & Communication Channels
+## Meeting Times
 
-1. The working group meets every _
+The working group meets every _[FREQUENCY]_ on _[DAY OF THE WEEK]_ from _[START TIME]_ to _[END TIME]_.
+
+## Communication channels
+
+1. Slack channels under the Project Hydra team (project-hydra.slack.com):
+  * #documentation - used for discussion specific to this working group.
+  * #dev - used for more general development discussions, and to get developer feedback.
+1. [Hydra-tech Google Group]()
 
 ## Members.
 
@@ -44,7 +61,7 @@ Other types of contributions such as requirements, design, best practices, docum
 * your name here (your institution here)
 
 ## Resources
-  * helpful links
+  * https://github.com/projecthydra-labs/hydra_documentation_wg - Repository for issue tracking and other working documents.
 
 ## Meeting Notes
   * list of links
