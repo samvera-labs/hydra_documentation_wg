@@ -1,3 +1,5 @@
+_**THIS DOCUMENT IS DEPRECATED. FURTHER UPDATES SHOULD BE MADE [ON THE DURASPACE WIKI](https://wiki.duraspace.org/display/hydra/Hydra+Documentation+Working+Group)**_
+
 # Hydra Documentation Working Group
 
 _NOTE: The Call for Participation (CfP) for this working group is open from **Thursday, April 5, 2017** through **Wednesday, April 19, 2017**. After that, any further changes to this charter will be made only by consensus of the working group's active members._
